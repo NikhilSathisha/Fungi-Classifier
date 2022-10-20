@@ -1,0 +1,3 @@
+Fly Agaric;p;10,20;x,f,s;g,h;e,o;f;e;c;w,y;15,20;15,20;b;y;w;u;w;t;g,p;w;w;d;u,a,w;t
+Panther Cap;p;5,10;p,x,f,s;g,h,s;n;f;e;c;w;6,10;10,20;b;y;w;u;w;t;p;w;w;d;u,a;t
+False Panther Cap;e;10,15;p,x,f;h,y;g,n;f;e;c;w;10,12;10,20;b;?;w;u;w;t;e,p,g;w;w;d;u,a;t

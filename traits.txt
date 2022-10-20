@@ -1,0 +1,1 @@
+name;class;cap-size;cap-shape;Cap-suriace;cap-color;has-bruises;gill-attachment;gill-spacing;gill-color;stem-height;stem-width;stem-root;stem-surface;stem-color;veil-type;veil-color;has-ring;ring-type;ring-color;spore-print;habitat;season;enrichable
