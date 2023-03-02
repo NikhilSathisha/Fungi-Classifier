@@ -50,7 +50,7 @@ class Fungus{
         traits.add(ind,temp);
     }
     /**
-     * resets the fungus object
+     * Resets the fungus object
      */
     public void Reset(){
         traits.clear();

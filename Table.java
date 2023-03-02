@@ -43,17 +43,28 @@ public class Table{
         s2.close();
 
     }
+    
+    /**
+     * Prints out the list.
+     */
     public void Display(){
         for(Fungus temp : fungiList){
             System.out.println(temp.toString());
             System.out.println();
         }
     }
+    /**
+     * Displays list of traits
+     */
     public void DisplayTraits(){
         for(int i = 0; i < traitList.size();i++){
             System.out.println(i + "\t" + traitList.get(i));
         }
     }
+    /**
+     * Filters traits based on boolean operations
+     * @param input Fungus to check against Fungus list
+     */
     public void Check(Fungus input){
         for(int j = 0; j< fungiList.size(); j++){
             boolean possible = true;
@@ -72,6 +83,14 @@ public class Table{
         }
         Display();
     }
+    
+    /**
+     * Compare method to compare 2 trait list.
+     * TODO: Implement comparable and .equals for Fungus objects.
+     * @param traits1 first trait list.
+     * @param traits2 second trait list.
+     * @return
+     */
     private boolean traitCompare(ArrayList<String> traits1, ArrayList<String> traits2){
         try {
             int v1 = Integer.parseInt(traits1.get(0));
